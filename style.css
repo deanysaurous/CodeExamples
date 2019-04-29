@@ -1,0 +1,188 @@
+/* .slick-slider {
+height: 250px; 
+} */
+
+.if-overlay .image_frame .image_wrapper .image_links {
+    display: none;
+}
+
+
+
+@font-face {
+    font-family: "Swis721 BT";
+    src: url("//db.onlinewebfonts.com/t/d97281294b63b449a93162fccd6121ec.eot");
+    src: url("//db.onlinewebfonts.com/t/d97281294b63b449a93162fccd6121ec.eot?#iefix") format("embedded-opentype"),
+        url("//db.onlinewebfonts.com/t/d97281294b63b449a93162fccd6121ec.woff2") format("woff2"),
+        url("//db.onlinewebfonts.com/t/d97281294b63b449a93162fccd6121ec.woff") format("woff"),
+        url("//db.onlinewebfonts.com/t/d97281294b63b449a93162fccd6121ec.ttf") format("truetype"),
+        url("//db.onlinewebfonts.com/t/d97281294b63b449a93162fccd6121ec.svg#Swis721 BT") format("svg");
+}
+
+@font-face {
+    font-family: "Swis721 Lt BT";
+    src: url("//db.onlinewebfonts.com/t/ff21985e04861bb8d9745440ee1e2e7d.eot");
+    src: url("//db.onlinewebfonts.com/t/ff21985e04861bb8d9745440ee1e2e7d.eot?#iefix") format("embedded-opentype"),
+        url("//db.onlinewebfonts.com/t/ff21985e04861bb8d9745440ee1e2e7d.woff2") format("woff2"),
+        url("//db.onlinewebfonts.com/t/ff21985e04861bb8d9745440ee1e2e7d.woff") format("woff"),
+        url("//db.onlinewebfonts.com/t/ff21985e04861bb8d9745440ee1e2e7d.ttf") format("truetype"),
+        url("//db.onlinewebfonts.com/t/ff21985e04861bb8d9745440ee1e2e7d.svg#Swis721 Lt BT") format("svg");
+}
+
+@font-face {
+    font-family: "Swis721 Md BT";
+    src: url("//db.onlinewebfonts.com/t/f7aee022e3fccf323589bb609b102300.eot");
+    src: url("//db.onlinewebfonts.com/t/f7aee022e3fccf323589bb609b102300.eot?#iefix") format("embedded-opentype"),
+        url("//db.onlinewebfonts.com/t/f7aee022e3fccf323589bb609b102300.woff2") format("woff2"),
+        url("//db.onlinewebfonts.com/t/f7aee022e3fccf323589bb609b102300.woff") format("woff"),
+        url("//db.onlinewebfonts.com/t/f7aee022e3fccf323589bb609b102300.ttf") format("truetype"),
+        url("//db.onlinewebfonts.com/t/f7aee022e3fccf323589bb609b102300.svg#Swis721 Md BT") format("svg");
+}
+
+@font-face {
+    font-family: "Swis721 Th BT";
+    src: url("//db.onlinewebfonts.com/t/56345f2f3a8cb1dc614646a1e37b9fe8.eot");
+    src: url("//db.onlinewebfonts.com/t/56345f2f3a8cb1dc614646a1e37b9fe8.eot?#iefix") format("embedded-opentype"),
+        url("//db.onlinewebfonts.com/t/56345f2f3a8cb1dc614646a1e37b9fe8.woff2") format("woff2"),
+        url("//db.onlinewebfonts.com/t/56345f2f3a8cb1dc614646a1e37b9fe8.woff") format("woff"),
+        url("//db.onlinewebfonts.com/t/56345f2f3a8cb1dc614646a1e37b9fe8.ttf") format("truetype"),
+        url("//db.onlinewebfonts.com/t/56345f2f3a8cb1dc614646a1e37b9fe8.svg#Swis721 Th BT") format("svg");
+}
+
+
+p,
+a,
+ul,
+li {
+    font-family: "Swis721 Lt BT";
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Swis721 BT";
+}
+
+h4,
+h5 {
+    font-family: "Swis721 Md BT";
+}
+
+blockquote {
+    font-family: "Swis721 Th BT";
+}
+
+
+.button_label {
+    font-size: 18px;
+}
+
+.testimonials_slider.single-photo .slider_pager {
+    display: none;
+}
+
+.portfolio_group .portfolio-item .desc {
+    padding: 20px;
+    background: #eb2227;
+    overflow: hidden;
+    text-align: center;
+}
+
+#Footer .footer_action .one {
+    margin-bottom: 95px;
+}
+
+@media screen and (max-width: 600px) {
+    #Footer .footer_action .one {
+        margin-bottom: 220px;
+    }
+}
+
+
+#Footer .footer_copy {
+    Border: none;
+}
+
+#Footer .footer_copy .social-menu li {
+    border: none;
+    margin-right: 10px;
+}
+
+ul li H5 a.link {
+    color: #fff;
+}
+
+#Header .secondary-menu > li > a {
+    color: #fff
+}
+
+#Header .secondary-menu > li > a hover {
+    color: #8b8b8b
+}
+
+#Header .secondary-menu > li.hover,
+#Header .secondary-menu li ul {
+    background: none
+}
+
+#Header .secondary-menu li ul li {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05)
+}
+
+#Header .secondary-menu li ul li a {
+    color: #8B8B8B
+}
+
+#Header .secondary-menu li ul li a:hover {
+    color: #5F5F5F;
+    background: rgba(255, 255, 255, 0.8)
+}
+
+body,
+ul.timeline_items,
+.icon_box a .desc,
+.icon_box a:hover .desc,
+.feature_list ul li a,
+.list_item a,
+.list_item a:hover,
+.widget_recent_entries ul li a,
+.flat_box a,
+.flat_box a:hover,
+.story_box .desc,
+.content_slider.carouselul li a .title,
+.content_slider.flat.description ul li .desc,
+.content_slider.flat.description ul li a .desc,
+.post-nav.minimal a i {
+
+    color: #8B8B8B;
+
+}
+
+.widget_archive ul,
+.widget_nav_menu ul {
+
+    list-style-type: none;
+
+}
+
+/*media all*/
+.widget_archive ul li::after,
+.widget_nav_menu ul li::after {
+    content: "";
+    display: block;
+    width: 70px;
+    border-width: 0 0 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, .1);
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+::selection {
+    color: #fff;
+    background-color: #8b8b8b;
+}
+
+.clients_slider_header {
+    display: none;
+}
